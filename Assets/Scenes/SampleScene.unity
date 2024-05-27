@@ -557,8 +557,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 644673159}
   m_TextComponent: {fileID: 12964903}
   m_Placeholder: {fileID: 1997571183}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -872,7 +872,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1237714113}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1454251098}
+        m_MethodName: SaludoEnConsola
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1237714113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,6 +948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80aafccf2588e6948af1ec66d7b34030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputPassword: {fileID: 644673158}
+  MSJ: {fileID: 12964903}
 --- !u!4 &1454251099
 Transform:
   m_ObjectHideFlags: 0
